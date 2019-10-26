@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Mario",
+    "image": "https://upload.wikimedia.org/wikipedia/en/a/a9/MarioNSMBUDeluxe.png"
+  },
+  {
+    "id": 2,
+    "name": "Luigi",
+    "image": "https://upload.wikimedia.org/wikipedia/en/f/f1/LuigiNSMBW.png"
+  },
+  {
+    "id": 3,
+    "name": "Princess Peach",
+    "image": "https://www.mariowiki.com/images/thumb/b/b7/SuperMarioParty_Peach_2.png/350px-SuperMarioParty_Peach_2.png"
+  },
+  {
+    "id": 4,
+    "name": "Princess Daisy",
+    "image": "https://upload.wikimedia.org/wikipedia/en/b/bd/Daisy_%28Super_Mario_Party%29.png"
+  },
+  {
+    "id": 5,
+    "name": "Bowser",
+    "image": "https://www.mariowiki.com/images/thumb/8/82/BowserNSMBUDX.png/600px-BowserNSMBUDX.png"
+  },
+  {
+    "id": 6,
+    "name": "Wario",
+    "image": "https://upload.wikimedia.org/wikipedia/en/8/81/Wario.png"
+  },
+  {
+    "id": 7,
+    "name": "Waluigi",
+    "image": "https://upload.wikimedia.org/wikipedia/en/4/46/Waluigi.png"
+  },
+  {
+    "id": 8,
+    "name": "Toad",
+    "image": "https://upload.wikimedia.org/wikipedia/en/d/d1/Toad_3D_Land.png"
+  },
+  {
+    "id": 9,
+    "name": "Toadette",
+    "image": "https://upload.wikimedia.org/wikipedia/en/2/21/Toadette_%28Mario%29.png"
+  },
+  {
+    "id": 10,
+    "name": "Yoshi",
+    "image": "https://upload.wikimedia.org/wikipedia/en/d/d9/YoshiMarioParty10.png"
+  },
+  {
+    "id": 11,
+    "name": "Rosalina",
+    "image": "https://upload.wikimedia.org/wikipedia/en/e/ee/RosalinaMP10.png"
+  },
+  {
+    "id": 12,
+    "name": "Diddy Kong",
+    "image": "https://upload.wikimedia.org/wikipedia/en/b/ba/DiddyReturns.png"
+  },
+  {
+    "id": 13,
+    "name": "Goomba",
+    "image": "https://www.mariowiki.com/images/thumb/9/9c/Goomba_-_MarioPartyStarRush.png/200px-Goomba_-_MarioPartyStarRush.png"
+  },
+  {
+    "id": 14,
+    "name": "Koopa Troopa",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/75/Koopa_Troopa_3D_Land.png/220px-Koopa_Troopa_3D_Land.png"
+  },
+  {
+    "id": 15,
+    "name": "Boo",
+    "image": "https://www.clipartwiki.com/clipimg/detail/69-691190_boo-mario-png-boo-mario-bros.png"
+  },
+  {
+    "id": 16,
+    "name": "Shy Guy",
+    "image": "https://www.mariowiki.com/images/thumb/7/70/ShyGuyCTTT_artwork.png/450px-ShyGuyCTTT_artwork.png"
+  }
+]
