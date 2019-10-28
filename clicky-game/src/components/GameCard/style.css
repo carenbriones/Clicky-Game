@@ -1,9 +1,10 @@
 img {
-  max-height: 200px;
-  max-width: 200px;
-  margin: auto;
+  max-height: 80%;
+  max-width: 80%;
+  margin: 10%;
 }
 
-.img-container:hover {
-  background-color: gray;
+.img-container {
+  max-height: 150px;
+  width: 100%
 }
