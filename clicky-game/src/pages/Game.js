@@ -31,11 +31,17 @@ class Game extends Component {
         clickedCards: currentClickedCards.concat(id),
         message: "Correct!"
       })
-    }
 
-    
+      // Updates highest score if necessary
+      if(this.state.currentScore >= this.state.highestScore) {
+        this.setState({
+          highestScore: this.state.currentScore + 1
+        })
+      }
+    }
   }
 
+  // Shuffles order of cards
   shuffle(cards) {
     for (let i = cards.length - 1; i > 0; i--) {
       let j = Math.floor(Math.random() * (i + 1));
