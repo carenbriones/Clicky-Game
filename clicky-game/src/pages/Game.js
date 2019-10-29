@@ -21,7 +21,7 @@ class Game extends Component {
         cards: this.shuffle(this.state.cards),
         currentScore: 0,
         clickedCards: [],
-        message: "Incorrect!! Card has already been clicked!"
+        message: "Incorrect!! " + this.getCardById(id).name + " has already been clicked!"
       })
       // If card hasn't been clicked, add to clickedCards
     } else {
@@ -50,11 +50,22 @@ class Game extends Component {
     return cards;
   }
 
+  // Returns card by matching id number; used for incorrect message
+  getCardById = (id) => {
+    for (var i = 0; i < cards.length; i++) {
+      if (cards[i].id === id) {
+        return cards[i];
+      }
+    }
+  }
+
   render() {
     return (
-      <div className="container">
-        <div className="row title">
-          <h1 className="col-12">Clicky Game</h1>
+      <div className="container mt-3">
+        <div className="row">
+          <p className="col-12 directions">
+            Click on an image to earn points, but don't click on any more than once!
+          </p>
         </div>
         <div className="row game-container">
           {cards.map((card) => 
@@ -65,8 +76,8 @@ class Game extends Component {
           <h3 className="col-6">Current Score: {this.state.currentScore}</h3>
           <h3 className="col-6">Highest Score: {this.state.highestScore}</h3>
         </div>
-        <div className="row">
-          <h3>{this.state.message}</h3>
+        <div className="row msg">
+          <h3 className="col-12">{this.state.message}</h3>
         </div>
       </div>
     )
